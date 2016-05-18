@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <script src='index.js'></script>
+  <link href='index.css' rel='stylesheet'></link>
+</head>
+<body>
+  <div id='nav'>
+    <button onclick='displayTab("main")'>Overview</button>
+    <button onclick='displayTab("account")'>Your Account Details</button>
+    <button onclick='displayTab("data")'>Your Data</button>
+    <button onclick='displayTab("requests")'>Data Requests</button>
+    <button onclick='displayTab("registry")'>Browse Registry</button>
+    <button onclick='displayTab("upload")'>Add Data</button>
+  </div>
+  <div>displaying <span id='currentMenu'></span> menu</div>
+  <br>
+  <br>
+  <div id='display'></div>
+  <div id='demoOptions'>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button onclick='loadDemo()'>Load Demo</button>
+  </div>
+</body>
+</html>
